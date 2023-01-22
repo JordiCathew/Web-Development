@@ -1,0 +1,193 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.container-fluid{
+    /* Padding 3% to the top and bottom, and 15 to the left and right. */
+    padding: 3% 15% 7%;
+}
+
+h1{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h2{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+h3{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+/* Navigation Bar */
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light', sans-serif;
+}
+
+/* Download buttons */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* First image */
+
+.col-img{
+    position: relative;
+}
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    /* We establish the position so that we can change the z-index */
+    position: absolute;
+    right: 30%;
+}
+
+/* Features */
+
+#features{
+    text-align: center;
+    padding: 7% 15%;
+    background-color: white;
+    /* We use position relative to mantain the natural stacking order, we can also remove the
+       z-index, by natural stacking order the features section will be on top (see flowchart)*/
+    position: relative;
+    z-index: 1;
+    
+}
+
+
+.icons-features{
+    color: #ef8171;
+    margin-bottom: 5px;
+}
+
+.icons-features:hover{
+    color: #ff4c68;
+    margin-bottom: 1rem;
+}
+
+.features-text{
+    color: #8f8f8f;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+
+/* Testimonials */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8171;
+    color: #fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+/* Press */
+
+#press{
+    background-color: #ef8171;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* Call to Action */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5% 5%;
+    color: #fff;
+}
+
+.row-cta{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.true-love{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+/* Footer */
+#footer{
+    background-color: #fff;
+    padding: 5% 5%;
+    text-align: center;
+}
+
+.icons-footer{
+    margin: 15px 10px;
+}
+
+
+/* Responsiveness */
+
+@media (max-width: 1028px){
+
+    #title{
+        text-align: center;
+    }
+    
+    .title-image{
+        position: static;
+        /* This is the absolute rotation */
+        transform: rotate(0);
+    }
+}
