@@ -30,7 +30,7 @@ Your app should now be running on http://localhost:3000.
 
 Check the checkboxes to remove an element. To create a new custom list use this example:
 
-http://localhost:3000/__name_of_your custom_list__
+http://localhost:3000/name_of_your custom_list
 
 
 
