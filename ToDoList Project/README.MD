@@ -3,6 +3,8 @@
 A to-do list web application using Node.js, EJS and MongoDB. Feel free
 to grab and adapt any part of this code if you'd like!
 
+![image](https://user-images.githubusercontent.com/72675046/216794654-e3775527-533f-4f0d-bf95-3382a8ae7d32.png)
+
 ## Important note before starting
 
 It's important to note before starting that the implementation of some of the functionalities of this application __ARE NOT__ the most efficient ways. This is because this project is for learning purposes and not for deployment. While the implementation for creating custom lists is nice for example, it isn't realistic. No one is going to create a custom list by simply adding a new name onto the end of the URL. The better solution would be to add a field to name a new list, then create a custom route within something like a  lists/:customListName. 
