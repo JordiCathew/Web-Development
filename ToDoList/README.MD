@@ -2,7 +2,7 @@
 
 App to make a To Do List. 
 
-![image]()
+![image](https://user-images.githubusercontent.com/72675046/221955517-621216ab-67db-40b7-9bad-147e645e2ccb.png)
 
 ## Important note before starting
 
