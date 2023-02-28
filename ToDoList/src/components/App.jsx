@@ -18,7 +18,7 @@ function App() {
   }
 
   function deleteItem(id) {
-    setItems(prevItems => {
+    setNewItem(prevItems => {
       return prevItems.filter((item, index) => {
         return index !== id;
       });

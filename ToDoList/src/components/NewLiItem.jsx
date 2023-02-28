@@ -10,7 +10,7 @@ function NewLiItem(props) {
     // }
 
     return (
-        <div onClick={handleClick}>
+        <div onClick={() => { props.onChecked(props.id); }}>
             <li style={{ textDecoration: isDone ? "line-through": "none" }}>
                 {props.text}
             </li>
