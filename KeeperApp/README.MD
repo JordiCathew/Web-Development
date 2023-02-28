@@ -2,7 +2,7 @@
 
 App to take notes inspired by Google Keep.
 
-![image]()
+(![image](https://user-images.githubusercontent.com/72675046/221958085-fc836f4b-cc75-42d4-93c1-9cfd0f4f6559.png)
 
 ## Important note before starting
 
